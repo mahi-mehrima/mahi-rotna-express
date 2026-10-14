@@ -138,17 +138,17 @@ const CONFIG = {
 //   extras    station-specific props / characters ('porter', 'fish', 'chests')
 const ROUTE = [
   { en: 'SHYAMNAGAR', bn: 'শ্যামনগর ', code: 'SHYM', km: 0,
-    platform: [-330, 650], roof: 'umbrella', crowd: 15, alight: 0, idle: 14,
+    platform: [-330, 650], roof: 'umbrella', crowd: 52, alight: 0, idle: 14,
     backdrop: ['city'], extras: ['porter'] },
   { en: 'SATKHIRA', bn: 'সাতক্ষীরা', code: 'SAT', km: 82,
-    platform: [-90, 400], roof: 'canopy', roofColor: 'red', crowd: 6, alight: 4, idle: 4,
+    platform: [-90, 400], roof: 'canopy', roofColor: 'red', crowd: 66, alight: 4, idle: 4,
     extras: ['fish'] },
-  { en: 'KHULNA', bn: 'খুলনা', code: 'KULN', km: 234,
-    platform: [4, 318], roof: 'shelter', crowd: 2, alight: 2, idle: 1 },
-  { en: 'PARBATIPUR JN.', bn: 'পার্বতীপুর জংশন', code: 'KUL', km: 272,
+  { en: 'KHULNA', bn: 'খুলনা', code: 'KHULN', km: 234,
+    platform: [4, 318], roof: 'shelter', crowd: 72, alight: 2, idle: 1 },
+  { en: 'PARBATIPUR JN.', bn: 'পার্বতীপুর জংশন', code: 'PAR JN', km: 372,
     roof: 'canopy', roofColor: 'blue', crowd: 5, alight: 3, idle: 3,
     extras: ['chests'] },                                  // tea chests from the gardens around
-  { en: 'ROTNA SENUA', bn: 'সেনুয়া, রত্নার বাসা', code: 'ROTNA', km: 319,
+  { en: 'ROTNA SENUA', bn: 'সেনুয়া, রত্নার বাসা', code: 'ROTNA', km: 419,
     platform: [-60, 380], roof: 'canopy', crowd: 0, alight: 12, idle: 2 },
 ];
 const STATION_DEFAULTS = { platform: [-40, 360], roof: 'canopy', roofColor: 'green',
@@ -162,7 +162,7 @@ const TERRAIN = [
   { id: 'village' },                      // SHYAMNAGAR onwards: paddy, ponds, tin roofs
   { id: 'river', at: [1, -260] },         // the Meghna at Bhairab, and the bridge
   { id: 'kash',  at: [1, 1640] },         // sandy chars white with kash phool
-  { id: 'tea',   at: [2, -420] },         // KHULNA and Kulaura tea gardens
+  { id: 'tea',   at: [2, -420] },         // KHULNA and PAR JNaura tea gardens
   { id: 'hills', at: [3, 200] },          // misty hills on the approach to ROTNAhet
 ];
 // Steel truss railway bridge over the Meghna, just past SATKHIRA
